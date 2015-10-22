@@ -59,11 +59,11 @@ public class BoxController : MonoBehaviour {
 		// Set new BG color at very first start of game
 		//cam.backgroundColor = Random.Range(;
 		if(Social.localUser.authenticated){
-		Social.ReportScore(AddPoints.HighScoreEasy,"CgkIwc6LobYWEAIQAQ",(bool success) => {
+		Social.ReportScore(AddPoints.HighScoreEasy,"",(bool success) => {
 		});
-		Social.ReportScore(AddPoints.HighScoreNorm,"CgkIwc6LobYWEAIQCg",(bool success) => {
+		Social.ReportScore(AddPoints.HighScoreNorm,"",(bool success) => {
 		});
-		Social.ReportScore(AddPoints.HighScoreHard,"CgkIwc6LobYWEAIQCA",(bool success) => {
+		Social.ReportScore(AddPoints.HighScoreHard,"",(bool success) => {
 		});
 		}
 	}
