@@ -37,37 +37,37 @@ public class AddPoints : MonoBehaviour {
 		//if authenticated => proceed to report progress
 		if(Social.localUser.authenticated){
 		if(HighScoreNorm > 10) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQAg",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreNorm > 20) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQAw",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreNorm > 50) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQBA",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreNorm > 100) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQBQ",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreNorm > 200) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQBg",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreHard > 50) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQCQ",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		
 		if(HighScoreEasy > 100) {
-			Social.ReportProgress("CgkIwc6LobYWEAIQCw",100.0f, (bool success) => {
+			Social.ReportProgress("",100.0f, (bool success) => {
 			});
 		}
 		}
