@@ -16,7 +16,6 @@ public class CamShake : MonoBehaviour {
 	
 	Vector3 originalPos;
 
-	//THINGS THAT JUST WORK ! DON'T ASK WHY !
 
 	void Awake()
 	{
